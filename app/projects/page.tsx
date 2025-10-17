@@ -26,17 +26,6 @@ const Projects = () => {
           isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"
         }`}
       >
-        {/* Kemudi */}
-        <FlippingCard
-          backgroundImage="/img/kemudi-thumb.webp"
-          year="2024"
-          category="Web Development"
-          title="KEMUDI"
-          description="A web-based platform transforming driver education by connecting learners with schools through interactive lessons, smart quizzes, and seamless scheduling."
-          initialDelay={1000}
-          href="https://sisenep.com/kemudi2/"
-        />
-
         {/* 70 RAD */}
         <FlippingCard
           backgroundImage="/img/70rad-thumb.webp"
