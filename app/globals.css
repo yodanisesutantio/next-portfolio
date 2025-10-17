@@ -1,15 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200..1000&family=McLaren&display=swap");
 @import "tailwindcss";
+@layer base;
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --font-mclaren: "McLaren", serif;
+  --font-nunito: "Nunito Sans", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
