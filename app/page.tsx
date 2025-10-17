@@ -56,10 +56,14 @@ const Home = () => {
           isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"
         }`}
       >
-        <p>Hi, I&rsquo;m Yodanis, an IT Enthusiast with a diverse skill set.</p>
         <p>
-          Currently working on to figure out what to do in the tech world{" "}
-          <span className="text-[#fffbfc]">🤭</span>
+          Hey, I’m Yodanis — a Software Engineer who still loves messing around
+          with design stuff.
+        </p>
+        <p>
+          These days, I’m working on ERP systems for all kinds of businesses,
+          but my creative brain never really takes a break{" "}
+          <span className="text-[#fffbfc]">🤓</span>
         </p>
       </div>
 
@@ -92,12 +96,12 @@ const Home = () => {
       </h1>
 
       <p
-        className={`mt-1.5 md:mt-2 w-full xl:w-96 2xl:w-[32rem] font-nunito font-light text-xs/snug sm:text-sm/snug md:text-xl/tight lg:text-lg/tight xl:text-base/tight 2xl:text-lg/tight text-[#aaa6a7] text-center transform transition-all duration-700 delay-[1600ms] ${
+        className={`mt-1.5 md:mt-2 w-full xl:w-[36rem] 2xl:w-[48rem] font-nunito font-light text-xs/snug sm:text-sm/snug md:text-xl/tight lg:text-lg/tight xl:text-base/tight 2xl:text-lg/tight text-[#aaa6a7] text-center transform transition-all duration-700 delay-[1600ms] ${
           isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"
         }`}
       >
-        I haven&rsquo;t decided yet, since I love both of them equally. (Oh, do
-        please hover over the image below!)
+        I’ve got a thing for both design and development — can’t pick a
+        favorite. (Seriously, hover over the image below!)
       </p>
 
       <div
@@ -109,11 +113,7 @@ const Home = () => {
         <FlippingCard
           backgroundImage="/img/si-logo-thumb.webp"
           title="User Interface Design"
-          description="Why only UI? While I admire the world of UX Design, I
-                haven&rsquo;t yet had the opportunity to practice it or work on
-                a project that truly immerses me in that space. UI Design feels
-                like a natural starting point, and I&rsquo;m excited to build a
-                strong foundation before diving deeper into UX."
+          description="Why only UI? I actually love UX too, but I haven’t had the chance to get hands-on with it yet. Right now, UI Design feels like the perfect playground—it lets me experiment, bring ideas to life visually, and get ready for the deeper, more human side of UX."
           initialDelay={5000}
         />
 
@@ -121,11 +121,7 @@ const Home = () => {
         <FlippingCard
           backgroundImage="/img/webdev.webp"
           title="Web Development"
-          description="It&rsquo;s a field that excites me because the possibilities
-                feel endless. I&rsquo;ve recently started exploring frameworks
-                like Tailwind CSS and Laravel. The ability to build something
-                tangible—not just daydream about it, but see it come to life
-                right in front of my eyes—is truly indescribable."
+          description="It’s a field that excites me because there’s always something new to create. After actually building stuff from scratch, I’ve realized how insanely rewarding it is to see ideas turn into something real that people can genuinely use, vibe with, and talk about."
           initialDelay={5200}
         />
       </div>
@@ -201,6 +197,13 @@ const Home = () => {
         />
 
         <TimelineEntry
+          date="May, 2025"
+          content="I officially graduated with my bachelor's degree — one of the most rewarding moments of my life. That day marked both an ending and an exciting new beginning."
+          imageSrc="/img/may-2025.webp"
+          imageAlt="a recreation image of my graduation day"
+        />
+
+        <TimelineEntry
           date="Today"
           content="As of today, I’m open to new opportunities and challenges, with a
               dream of working abroad—perhaps Germany? The chance to grow my
@@ -208,15 +211,6 @@ const Home = () => {
               whatever comes next."
           imageSrc="/img/today.webp"
           imageAlt="a recreation image of what I do right now"
-        />
-
-        <TimelineEntry
-          date="May, 2025"
-          content="I’ll be attending my graduation and officially earning my
-              bachelor’s degree. It’s a proud milestone that closes one chapter
-              while opening doors to new adventures."
-          imageSrc="/img/may-2025.webp"
-          imageAlt="a recreation image of my graduation day"
         />
       </TimelineContainer>
 

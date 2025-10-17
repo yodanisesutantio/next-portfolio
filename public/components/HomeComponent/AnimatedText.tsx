@@ -5,15 +5,14 @@ import React from "react";
 const AnimatedText = ({ isVisible = false }) => {
   const words = [
     { text: "I", delay: 0 },
-    { text: "do", delay: 100 },
-    { text: "Design", delay: 200 },
-    { text: "during", delay: 300 },
-    { text: "the", delay: 400 },
-    { text: "Day", delay: 500, className: "text-[#CAFE48]" },
-    { text: "then", delay: 600 },
-    { text: "Code", delay: 700 },
-    { text: "at", delay: 800 },
-    { text: "Night", delay: 900, className: "text-[#57467B]" },
+    { text: "Code", delay: 100 },
+    { text: "during", delay: 200 },
+    { text: "the", delay: 300 },
+    { text: "Day", delay: 400, className: "text-[#CAFE48]" },
+    { text: "then", delay: 500 },
+    { text: "Design", delay: 600 },
+    { text: "at", delay: 700 },
+    { text: "Night", delay: 800, className: "text-[#57467B]" },
   ];
 
   return (
