@@ -183,15 +183,8 @@ const Home = () => {
           imageAlt="a recreation image of me completing my final assignment of college"
           additionalContent={
             <>
-              You can find more details on this project on my{" "}
-              <Link
-                href="/projects"
-                className="underline hover:no-underline font-semibold"
-              >
-                Projects
-              </Link>{" "}
-              page. While this was a milestone, my journey is far from over, as
-              I continue exploring what’s next.
+              While this was a milestone, my journey is far from over, as I
+              continue exploring what’s next.
             </>
           }
         />

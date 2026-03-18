@@ -26,9 +26,20 @@ const Projects = () => {
           isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"
         }`}
       >
+        {/* POKEDEX */}
+        <FlippingCard
+          backgroundImage="/img/pokedex-thumb.webp"
+          year="2026"
+          category="Web Development"
+          title="Pokedex Site"
+          description="A fun side project where I explored frontend data streamlining while building my own personal Pokédex—turning messy data into a clean, scrollable experience."
+          initialDelay={1000}
+          href="https://pokedex-mvp-y.vercel.app/pokedex"
+        />
+
         {/* 70 RAD */}
         <FlippingCard
-          backgroundImage="/img/70rad-thumb.webp"
+          backgroundImage="/img/70rad-thumb-2.webp"
           year="2024"
           category="UI Design"
           title="70RAD Design Challenge"
@@ -39,7 +50,7 @@ const Projects = () => {
 
         {/* Logo SI */}
         <FlippingCard
-          backgroundImage="/img/si-logo-thumb.webp"
+          backgroundImage="/img/si-logo-thumb-2.webp"
           year="2023"
           category="Logo Design"
           title="Information Systems of ITATS"
@@ -50,7 +61,7 @@ const Projects = () => {
 
         {/* Archdaily UX Case Study */}
         <FlippingCard
-          backgroundImage="/img/archdaily-thumb.webp"
+          backgroundImage="/img/archdaily-thumb-2.webp"
           year="2023"
           category="Case Study"
           title="Archdaily UX Case Study"
