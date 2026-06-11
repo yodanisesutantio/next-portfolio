@@ -69,7 +69,7 @@ const FlippingCard = (props: ProjectFlippingCardProps) => {
       >
         {/* Front side */}
         <div
-          className="absolute w-full h-full backface-hidden group/item flex flex-col justify-end   bg-cover xl:bg-auto bg-center overflow-hidden rounded-sm xl:saturate-0 xl:hover:saturate-100 duration-700"
+          className="absolute w-full h-full backface-hidden group/item flex flex-col justify-end bg-cover bg-center overflow-hidden rounded-sm xl:saturate-0 xl:hover:saturate-100 duration-700"
           style={{
             backgroundImage: `url(${props.backgroundImage ?? ""})`,
           }}

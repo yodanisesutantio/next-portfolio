@@ -26,6 +26,17 @@ const Projects = () => {
           isVisible ? "translate-y-0 opacity-100" : "translate-y-16 opacity-0"
         }`}
       >
+        {/* Notion-Like Project Management */}
+        <FlippingCard
+          backgroundImage="/img/notion-like-pm.webp"
+          year="2026"
+          category="Web Development"
+          title="Notion-like Project Management"
+          description="Developed a multi-project management application, designed to streamline workflows and improve organization. The platform emphasizes performance, responsive design, and a clean user experience across all devices."
+          initialDelay={1000}
+          href="https://pokedex-mvp-y.vercel.app/pokedex"
+        />
+
         {/* POKEDEX */}
         <FlippingCard
           backgroundImage="/img/pokedex-thumb.webp"
@@ -33,23 +44,34 @@ const Projects = () => {
           category="Web Development"
           title="Pokedex Site"
           description="A fun side project where I explored frontend data streamlining while building my own personal Pokédex—turning messy data into a clean, scrollable experience."
-          initialDelay={1000}
+          initialDelay={1200}
           href="https://pokedex-mvp-y.vercel.app/pokedex"
         />
 
         {/* 70 RAD */}
         <FlippingCard
-          backgroundImage="/img/70rad-thumb-2.webp"
+          backgroundImage="/img/70rad-thumb.webp"
           year="2024"
           category="UI Design"
           title="70RAD Design Challenge"
           description="A self-driven design exploration challenging my creative boundaries through daily UI recreations and focused 10-day design projects, documenting my skill progression."
-          initialDelay={1200}
+          initialDelay={1400}
           href="https://www.behance.net/gallery/220395869/70RAD-Design-Challenge-Design-Contemplation"
         />
 
-        {/* Logo SI */}
+        {/* ?Next Project? */}
         <FlippingCard
+          backgroundImage="/img/new-project.webp"
+          year="∞"
+          category="Anything"
+          title="My Next Project"
+          description="More projects are on the way. I'm constantly coming up with new ideas, and I usually can't resist turning them into something real. Building things is just too much fun."
+          initialDelay={1600}
+          href="#"
+        />
+
+        {/* Logo SI */}
+        {/* <FlippingCard
           backgroundImage="/img/si-logo-thumb-2.webp"
           year="2023"
           category="Logo Design"
@@ -57,10 +79,10 @@ const Projects = () => {
           description="Navigating a design challenge with minimal experience, I created a winning logo that became the official emblem for my college department."
           initialDelay={1400}
           href="https://drive.google.com/drive/folders/1V-PsNOiJ4G4AZTL9mWJZpJz1tQ_r7WFm"
-        />
+        /> */}
 
         {/* Archdaily UX Case Study */}
-        <FlippingCard
+        {/* <FlippingCard
           backgroundImage="/img/archdaily-thumb-2.webp"
           year="2023"
           category="Case Study"
@@ -68,7 +90,7 @@ const Projects = () => {
           description="Crafting a comprehensive UX case study with permission from Archdaily, diving deep into design principles and gaining valuable industry insights."
           initialDelay={1600}
           href="https://www.behance.net/gallery/181193573/UX-Case-Study-Archdaily"
-        />
+        /> */}
       </div>
     </section>
   );

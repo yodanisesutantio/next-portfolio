@@ -111,7 +111,7 @@ const Home = () => {
       >
         {/* UI Design Card */}
         <FlippingCard
-          backgroundImage="/img/si-logo-thumb.webp"
+          backgroundImage="/img/design.webp"
           title="User Interface Design"
           description="Why only UI? I actually love UX too, but I haven’t had the chance to get hands-on with it yet. Right now, UI Design feels like the perfect playground—it lets me experiment, bring ideas to life visually, and get ready for the deeper, more human side of UX."
           initialDelay={5000}
