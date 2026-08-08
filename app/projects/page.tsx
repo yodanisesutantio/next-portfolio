@@ -34,7 +34,7 @@ const Projects = () => {
           title="Notion-like Project Management"
           description="Developed a multi-project management application, designed to streamline workflows and improve organization. The platform emphasizes performance, responsive design, and a clean user experience across all devices."
           initialDelay={1000}
-          href="https://pokedex-mvp-y.vercel.app/pokedex"
+          href="https://to-do-indol-eta.vercel.app/"
         />
 
         {/* POKEDEX */}
